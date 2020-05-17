@@ -122,7 +122,7 @@ def ej5():
     - Solo la primera letra del nombre en mayúscula
 
     NOTA: Para realizar este ejercicio deberá usar los siguientes métodos
-    de strings:
+    de strs:
     - lower
     - upper
     - capitalize
