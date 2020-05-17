@@ -62,7 +62,7 @@ def numbers():
     division = numero_1 / numero_2
     print('El resultado dividir',numero_1,'y',numero_2,'es',division)
 
-def strings():
+def strs():
     # Ejemplos varialbles de texto
     texto_1 = 'Hola'
     texto_2 = 'Mundo'
@@ -113,7 +113,7 @@ def strings():
     es_direccion_argentina = pais_objetivo in direccion_3
     print(direccion_3,'es una dirección Argentina?',es_direccion_argentina)
 
-    # Una cadena de texto (string) está compuesta de Nº caracteres
+    # Una cadena de texto (str) está compuesta de Nº caracteres
     # ¿Cuántos caracteres tiene el Argentina?
     argentina_len = len(pais_objetivo)
     print(pais_objetivo,'tiene',argentina_len,'caracteres')
@@ -176,6 +176,6 @@ def consola():
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     #numbers()
-    #strings()
+    #strs()
     #consola()
 
