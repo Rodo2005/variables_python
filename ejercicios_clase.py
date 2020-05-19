@@ -27,18 +27,31 @@ def ej1():
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     # print(....)
 
+    print(numero_1,numero_2)
+
+
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
+
+    suma = numero_1 + numero_2
+    resta = numero_1 - numero_2
+    division = numero_1 / numero_2
+    multiplicacion = numero_1 * numero_2
+
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    print("el resultado de sumar ",numero_1," y ",numero_2," es ",suma)
 
     # Resta
+    print("El resultado de restar ",numero_1," y ",numero_2," es ",resta)
 
     # División
+    print("El resultado de dividir ",numero_1," y ",numero_2," es ",division)
 
     # Multiplicación
+    print("El resultado de multiplicar ",numero_1," y ",numero_2," es ",multiplicacion)
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -52,19 +65,30 @@ def ej2():
 
     # Alumno: Imprima en pantalla los dos números reales solicitados
     # print(....)
+    print(numero_3,numero_4)
 
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_3, numero_4
+    suma = numero_3 + numero_4
+    resta = numero_3 - numero_4
+    division = numero_3 / numero_4
+    multiplicacion = numero_3 * numero_4
+
+    
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    print("El resultado de sumar ",numero_3," y ",numero_4," es ",suma)
 
     # Resta
+    print("El resultado de restar ",numero_3," y ",numero_4," es ",resta)
 
     # División
+    print("El resultado de dividir ",numero_3," y ",numero_4," es ",division)
 
     # Multiplicación
+    print("El resultado de multiplicar ",numero_3," y ",numero_4," es ",multiplicacion)
 
 
 def ej3():
@@ -79,11 +103,14 @@ def ej3():
     apellido = str(input())
 
     # Imprima su nombre completo
+    print(nombre,apellido)
 
     # Almacenar su nombre completo en una variable
     # nombre_completo = .....
+    nombre_completo = nombre + apellido
 
     # Imprimir la cantidad de letras que posee su nombre completo
+    print(len(nombre_completo))
 
 def ej3():
     # Ejemplos variables de texto
@@ -104,6 +131,11 @@ def ej3():
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
 
+    acronimo_1 = palabra_1[0]
+    acronimo_2 = palabra_2[0]
+    acronimo_3 = palabra_3[0]
+    print(acronimo_1 + acronimo_2 + acronimo_3)
+
 def ej4():
     # Ejemplos variables de texto
 
@@ -119,9 +151,14 @@ def ej4():
     # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
 
+    acronimo_1 = palabra_1[0:3]
+    longitud = len(palabra_2)
+    acronimo_2 = palabra_2[longitud - 3:longitud]
+    print(acronimo_1 + acronimo_2)
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
+    #ej1()
     #ej2()
     #ej3()
     #ej4()
