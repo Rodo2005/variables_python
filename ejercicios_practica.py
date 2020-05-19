@@ -174,7 +174,7 @@ def ej4():
     apPersona_2 = persona_2.split()[-1]
     print("")
     pariente = apPersona_2 in persona_1
-    pariente == "true"
+    #pariente == "true"
     print("Estas personas son parientes?",pariente)
     print("")
 
