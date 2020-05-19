@@ -174,7 +174,7 @@ def ej4():
     apPersona_2 = persona_2.split()[-1]
     print("")
     pariente = apPersona_2 in persona_1
-    #pariente == "true"
+    # pariente == "true"
     print("Estas personas son parientes?",pariente)
     print("")
 
@@ -207,10 +207,22 @@ def ej5():
 
     '''
 
+    print("Ingrese su nombre cpmpleto:")
+    nombre = str(input())
+    nombre_min = nombre.lower()
+    nombre_may = nombre.upper()
+    nombre_ini = nombre.capitalize()
+    print("")
+    print(nombre_min)
+    print(nombre_may)
+    print(nombre_ini)
+    print("")
+
+
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     #ej1()
     #ej2()
     #ej3()
-    ej4()
+    #ej4()
     #ej5()
